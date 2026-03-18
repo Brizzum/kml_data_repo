@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Stage 6 — Rifugio Sommariva al Pramperet to Rifugio Furio Bianchet</name>
+  <Style id="routeLine">
+    <LineStyle><color>ff2dc0fb</color><width>3</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="optionalLine">
+    <LineStyle><color>99ff55ff</color><width>2</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="icon_circle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_diamond">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_square">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-square.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_redcircle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Rifugio Sommariva al Pramperet (Start)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.16369891717592,46.28889281962298,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Stage 6 route</name>
+    <styleUrl>#routeLine</styleUrl>
+    <LineString><tessellate>1</tessellate>
+      <coordinates>12.1637959119959,46.28839285009304,0 12.16251329598382,46.28681126462239,0 12.15766113516104,46.2873635833507,0 12.15719493727053,46.28733956238354,0 12.15688576449605,46.28656312884145,0 12.1564936138966,46.28609059981449,0 12.15598458281215,46.28561118331994,0 12.15481284302438,46.28492880857944,0 12.15311024706829,46.28331038313302,0 12.15200467403783,46.28126159708494,0 12.15373494584174,46.28020365034033,0 12.1563172077044,46.27866917707375,0 12.15579997649522,46.27735832152058,0 12.15429915913745,46.27643412085756,0 12.15137122423314,46.2763818054415,0 12.15201207387863,46.27478768047506,0 12.15382800355106,46.2734003412785,0 12.15561797794709,46.27292093349047,0 12.15733793139541,46.27304492428071,0 12.1612309856473,46.27215655980796,0 12.16134507685263,46.26939822483646,0 12.16324266879612,46.26769938854245,0 12.16497193173597,46.26661761706038,0 12.16721132502915,46.26644317656687,0 12.17021571746708,46.26640897906982,0 12.17178978285717,46.26520025392433,0 12.17395425816522,46.26351953088673,0 12.17657879918203,46.26164303222211,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Rifugio Furio Bianchet (Night 6)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.16127946352046,46.24351856392556,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

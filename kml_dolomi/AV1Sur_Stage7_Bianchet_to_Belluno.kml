@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Stage 7 — Rifugio Furio Bianchet to Belluno</name>
+  <Style id="routeLine">
+    <LineStyle><color>ff2dc0fb</color><width>3</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="optionalLine">
+    <LineStyle><color>99ff55ff</color><width>2</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="icon_circle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_diamond">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_square">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-square.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_redcircle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Rifugio Furio Bianchet (Start)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.16127946352046,46.24351856392556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Stage 7 route</name>
+    <styleUrl>#routeLine</styleUrl>
+    <LineString><tessellate>1</tessellate>
+      <coordinates>12.17652149530531,46.2614363015239,0 12.17373519444306,46.26132739887415,0 12.17088024116917,46.26051607714194,0 12.16725265041035,46.25921070443459,0 12.16739847854285,46.25708141022299,0 12.16709662475807,46.2553227188927,0 12.17015068238426,46.25540500766983,0 12.17164315613143,46.25271663161056,0 12.17131495697236,46.24991237874133,0 12.1691674371681,46.24705446588798,0 12.16546317792809,46.24534421035908,0 12.16086874490158,46.24355666385172,0 12.15367314511439,46.24330758795983,0 12.14457304182719,46.24417936434401,0 12.13588123831838,46.24260720829616,0 12.12706726937494,46.24031183694946,0 12.12519708533243,46.23547350802635,0 12.1208221313576,46.22883606022516,0 12.11646159418445,46.22699396331596,0 12.12975733112442,46.21190160686371,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>La Stanga — Bus Stop</name>
+    <styleUrl>#icon_redcircle</styleUrl>
+    <Point><coordinates>12.12924548371744,46.21201173742729,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Belluno (Terminus)</name>
+    <styleUrl>#icon_square</styleUrl>
+    <Point><coordinates>12.21029289775664,46.14135534804327,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

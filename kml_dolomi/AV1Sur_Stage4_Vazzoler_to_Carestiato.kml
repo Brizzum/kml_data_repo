@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Stage 4 — Rifugio Mario Vazzoler to Rifugio Carestiato</name>
+  <Style id="routeLine">
+    <LineStyle><color>ff2dc0fb</color><width>3</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="optionalLine">
+    <LineStyle><color>99ff55ff</color><width>2</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="icon_circle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_diamond">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_square">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-square.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_redcircle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Rifugio Mario Vazzoler (Start)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.03120533387265,46.35412364195406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Stage 4 route</name>
+    <styleUrl>#routeLine</styleUrl>
+    <LineString><tessellate>1</tessellate>
+      <coordinates>12.03180442505994,46.35626660515506,0 12.03258903502135,46.35718952294754,0 12.03340137879727,46.35690887353962,0 12.03586406078589,46.35728886263106,0 12.0374723842261,46.35684879259963,0 12.04393780467651,46.35383505702237,0 12.04097049605656,46.35383444809957,0 12.04129028276319,46.35206347693077,0 12.03965925560748,46.3505241721972,0 12.0394876669675,46.34909687878989,0 12.04187360202938,46.34853098731206,0 12.04342802426563,46.34821317778673,0 12.04157124881052,46.34280541929119,0 12.04324952596993,46.33726161755383,0 12.04115841265072,46.33632482171108,0 12.04132755416408,46.33420627936506,0 12.04146951331509,46.33234696964914,0 12.04174396175507,46.33075842862097,0 12.03980760365069,46.3295746852765,0 12.04181328078778,46.32568635149268,0 12.04404984155709,46.32357259371447,0 12.04711461900233,46.32382646490817,0 12.04918278926013,46.32591645841377,0 12.05268290569823,46.32818547551484,0 12.05877321029775,46.32860436402535,0 12.05836203058447,46.32785488987349,0 12.05968705883415,46.32617242836865,0 12.06137766209496,46.32482044980526,0 12.06519977155348,46.3236900692368,0 12.06838447954061,46.32256823384665,0 12.0779053820733,46.32249746490224,0 12.09201652027801,46.32461656341029,0 12.09585604270352,46.3248800757563,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Rifugio Duran (Alt. D.2)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.09557756171923,46.32491678257716,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rifugio Carestiato (Night 4)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.07047790347889,46.32131534823677,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

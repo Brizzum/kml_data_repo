@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Stage 5 — Rifugio Carestiato to Rifugio Sommariva al Pramperet</name>
+  <Style id="routeLine">
+    <LineStyle><color>ff2dc0fb</color><width>3</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="optionalLine">
+    <LineStyle><color>99ff55ff</color><width>2</width></LineStyle>
+    <PolyStyle><fill>0</fill></PolyStyle>
+  </Style>
+  <Style id="icon_circle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_diamond">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_square">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-square.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="icon_redcircle">
+    <IconStyle><scale>1.2</scale><Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Rifugio Carestiato (Start)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.07047790347889,46.32131534823677,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Stage 5 route</name>
+    <styleUrl>#routeLine</styleUrl>
+    <LineString><tessellate>1</tessellate>
+      <coordinates>12.09680581393467,46.32505590953878,0 12.09968359354346,46.32723929065568,0 12.10228778404336,46.32349881707425,0 12.10231063087947,46.31862110524451,0 12.10036980600607,46.31666028827108,0 12.10395677508054,46.31448276204401,0 12.10292085057022,46.31313186160189,0 12.10094612458157,46.30779198774188,0 12.10255946299446,46.30556442814339,0 12.1032967450301,46.30456346315265,0 12.10680885267301,46.30225659605512,0 12.10987621824277,46.30228197705633,0 12.11277247633211,46.30271425102281,0 12.1141687427427,46.30164179870185,0 12.11514498254514,46.29988012517477,0 12.11921599572868,46.29983336314581,0 12.11997501342032,46.29775588186797,0 12.12019701414972,46.29663284479006,0 12.12060620894728,46.29177638131947,0 12.12178726919601,46.29009312805097,0 12.1260871111756,46.28615777882039,0 12.12940273589737,46.28408826384222,0 12.13101658324557,46.28381392416578,0 12.13721751061492,46.28552267518486,0 12.13858120357445,46.28788013542222,0 12.14183394309884,46.28948101623817,0 12.14424458261714,46.2917579207269,0 12.14702297726475,46.29397298946325,0 12.14977458258275,46.29561108283865,0 12.15185542339283,46.29644121632885,0 12.15645650707234,46.2927687794087,0 12.15934413134802,46.29083552939062,0 12.16332911834055,46.28910199739957,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Rifugio Sommariva al Pramperet (Night 5)</name>
+    <styleUrl>#icon_circle</styleUrl>
+    <Point><coordinates>12.16369891717592,46.28889281962298,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
